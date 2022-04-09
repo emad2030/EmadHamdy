@@ -1,0 +1,282 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F5F2
+}
+/* start navbar */
+nav
+{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    margin-top: 0;
+    z-index: 2
+}
+nav ul
+{
+    list-style: none
+}
+nav ul li
+{
+    float: left;
+    margin-left: 140px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    height: 25px
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white
+}
+nav ul li a:hover
+{
+    background-color: #ccc;
+    cursor: pointer;
+    color: black
+}
+/* end navbar */
+
+/* start header */
+header
+{
+    background-image: url(iamges/coffeehouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative
+}
+header h2
+{
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center
+}
+header .left
+{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background-color: #000;
+    color: white;
+    line-height: 15px;
+    padding: 2px
+    
+}
+header .right
+{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 15px
+}
+/* end header */
+
+/* start container */
+.container
+{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center
+}
+/* start about */
+.about
+{
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 80px
+    
+}
+.about h1
+{
+    background-color: #000;
+    color: white;
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 40px
+}
+.about p
+{
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 30px
+        
+}
+.about  .span 
+{
+    margin-top: 20px;
+    background-color: #F1F1F1;
+    border-left: 5px solid #CCCCCC;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 20px
+    
+    
+}
+.about img
+{
+    width: 100%;
+    display: block
+}
+.about h3
+{
+    text-align: left
+    
+}
+/* end about */
+
+/* start menu */
+.menu
+{
+    margin-top: 50px;
+    padding-top: 80px
+}
+.menu h1
+{
+    background-color: #000;
+    color: white;
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 40px
+}
+.menu button
+{
+    width: 393px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    background-color: #F7F5F2;
+    box-shadow: 0 10px 10px #ccc
+}
+.menu button:hover
+{
+    cursor: pointer
+}
+.menu .eat
+{
+    background-color: #F7F5F2;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px #ddd;
+    margin-bottom: 50px
+}
+
+.menu .eat p
+{
+    margin-bottom: 50px
+}
+.menu img
+{
+    width: 100%
+}
+/* end menu */
+
+/* start find us */
+.findus
+{
+    margin-top: 50px;
+    padding-top: 80px;
+    text-align: left
+}
+.findus h1
+{
+    background-color: #000;
+    color: white;
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding: 10px;
+    font-size: 40px
+    
+}
+.findus p
+{
+    margin-bottom: 20px
+}
+.findus iframe
+{
+    width: 100%;
+    margin-bottom: 10px
+}
+.findus p
+{
+    font-size: 23px;
+    letter-spacing: 2px
+}
+.findus p span
+{
+    background-color: #000;
+    color: white
+}
+.findus p .span2
+{
+    background-color: transparent;
+    color: black;
+    font-weight: 700
+}
+.findus form input
+{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white
+}
+.findus form input[type="submit"]
+{
+    width: 130px;
+    height: 45px;
+    border: none;
+    background-color: #000;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase
+}
+.findus form input[type="submit"]:hover
+{
+    background-color: #ccc;
+    cursor: pointer;
+    color: black
+}
+/* end find us */
+
+/* start footer */
+footer
+{
+    background-color: #F1F1F1;
+    color: black;
+    padding-top: 50px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center
+}
+
+
+
+
+
+
+
+
+
+

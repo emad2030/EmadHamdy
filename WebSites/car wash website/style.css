@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+/* start navigation bar */
+nav {
+  background-color: #222222;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 2;
+}
+nav .logo {
+  float: left;
+  margin: 25px 0 20px 130px;
+  color: #fec400;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+nav .logo:hover {
+  cursor: pointer;
+}
+nav .list {
+  float: right;
+  margin: 15px 150px 10px 0;
+  text-transform: uppercase;
+}
+nav .list ul {
+  list-style-type: none;
+}
+nav .list ul li {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav .list ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .list ul li a:hover {
+  color: #fec400;
+  cursor: pointer;
+}
+/* end navbar */
+
+/* start header */
+header {
+  background-image: url(image.jpeg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+header .shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 22%;
+}
+header .title p {
+  color: #fec400;
+}
+/* end header */
+/* start brief */
+.brief {
+  background-color: #fec400;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+}
+.brief h1 {
+  text-transform: capitalize;
+}
+/* end brief */
+/* start services */
+.services {
+  background-color: #222222;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  padding-top: 80px;
+}
+.services h1 {
+  color: #fec400;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.services div {
+  border: 0.5px solid #9f9f9f;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+}
+.services div h2 {
+  color: #dddddd;
+}
+.services div p {
+  color: #777777;
+}
+/* end services */
+/* start about */
+.about {
+  width: 100%;
+  height: 500px;
+}
+.about .left {
+  background-image: url(dd.jpeg);
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+.about .right {
+  width: 50%;
+  background-color: #fec400;
+  padding: 60px;
+  float: right;
+  height: 500px;
+}
+.about .right h2 {
+  text-transform: capitalize;
+  color: #3f3c2e;
+}
+.about .right p {
+  margin: 30px 0;
+}
+.about .right a {
+  text-decoration: none;
+  color: #222222;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 10px;
+}
+.about .right a:hover {
+  color: white;
+  background-color: orangered;
+}

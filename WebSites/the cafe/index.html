@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <title>cafe web page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- start navbar -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#findus">Where</a></li>
+            </ul>
+        </nav>
+        <!-- end navbar -->
+        <!-- start header -->
+        <header id="home">
+            <h2>the<br> cafe</h2>
+            <div class="left">
+                <p>open from 6am to 5am</p>
+            </div>
+            <div class="right">
+                <p>15 Adr street, 5015</p>
+            </div>
+        
+        </header>
+        <!-- end header -->
+        <!-- start container -->
+        <div class="container">
+            <!-- start about -->
+            <div class="about" id="about">
+                <h1>about the cafe</h1>
+                <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et<br>
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br>
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                
+                <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-<br>
+                    order breakfast and lunch sandwiches, as well as a selection of sides and<br>
+                    salads and other good stuff.<br>
+                <div class="span">
+                    <q>Use products from nature for what it's worth - but never too early, nor<br>
+                    too late.</q> Fresh is the new sweet.<br>
+                    Chef, Coffeeist and Owner: Liam Brown
+                </div>
+                <img src="iamges/coffeeshop.jpg" alt="coffeshop">
+                <h3>opening hours: <span>everyday from 6am to 5am.</span></h3>
+                <h3>Address: <span>15 Adr street, 5015, NY</span></h3>
+            </div>
+            <!-- end about -->
+            
+            <!-- start menu -->
+            <div class="menu" id="menu">
+                <h1>The menu</h1>
+                <button type="button" onclick="document.getElementById('eat').style.display='none'">Eat</button>
+                <button type="button" onclick="document.getElementById('eat').style.display='block'">Drink</button>
+                
+                <div class="eat drink" id="eat">
+                    <h3>Bread Basket</h3>
+                        <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+                    <h3>Honey Almond Granola with Fruits</h3>
+                        <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+
+                        <h3>Belgian Waffle</h3>
+                            <p>Vanilla flavored batter with malted flour 7.50</p>
+
+                        <h3>Scrambled eggs</h3>
+                            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+
+                        <h3>Blueberry Pancakes</h3>
+                            <p>With syrup, butter and lots of berries 8.50</p>
+                
+                </div>
+                <img src="iamges/coffeehouse2.jpg" alt="coffehouse">
+            </div>
+            <!-- end menu -->
+            <!-- start find us -->
+                <div class="findus" id="findus">
+                    <h1>where to find us</h1>
+                    <p>Find us at some address at some place.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320186.7790309493!2d-87.93200887555582!3d41.790534565671976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C+IL%2C+USA!5e0!3m2!1sen!2seg!4v1536703909062" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <p><span>FYI!</span>We offer full-service catering for any event, large or small. We<br>
+                        understand your needs and we will cater the food to satisfy the biggerst<br>
+                        criteria of them all, both look and taste.</p>
+                    
+                    <p><span class="span2">Reserve</span> a table, ask for today's special or just send us a message:</p>
+                    
+                    <form>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="number" name="number" placeholder="How many people">
+                        <input type="datetime" name="date and time" placeholder="date-time">
+                        <input type="text" name="message" placeholder="Messgae \ Special \ requirments">
+                        <input type="submit" value="Send message">
+                    </form>
+            
+            </div>
+            <!-- end find us -->
+        
+        </div>
+        <!-- end container -->
+        <footer>
+            copy&copy; 2018 All right resrved made by EMAD HAMDY
+        </footer>
+    </body>
+    
+    
+
+
+
+</html>

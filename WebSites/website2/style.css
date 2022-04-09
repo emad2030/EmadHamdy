@@ -1,0 +1,225 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    letter-spacing: 2px;
+    padding-top: 40px
+    
+}
+nav
+{
+    color: black;
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #ccc;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    z-index: 1
+    
+    
+    
+    
+}
+nav .left
+{
+    float: left;
+    margin: 20px 0 10px 20px
+    
+}
+nav .left a
+{
+    text-decoration: none;
+    color: black;
+    border: none;
+    display: block;
+    outline: 0
+    
+}
+nav .left a:hover, .right a:hover
+{
+    background-color: #ECEBEB;
+    
+    
+}
+nav .right 
+{
+    float: right;
+    margin: 20px 50px 10px 20px 
+}
+nav .right a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px
+    
+}
+header
+{
+    position: relative
+}
+header .photo img
+{
+    background-size: cover;
+    
+}
+header .thename
+{
+    position: absolute;
+    bottom: 2%;
+    left: 2%
+}
+header .thename p
+{
+    font-size: 40px
+}
+.content
+{
+    text-align: center;
+    width: 100%;
+    margin: 90px auto;
+    padding-top: 90px
+    
+}
+.content .left
+{
+    margin: 10px 50px 0 200px 
+}
+.content .left img
+{
+    opacity: .9
+}
+.content .left, .right
+{
+    float: left
+    
+}
+.content .right h1
+{
+    margin-bottom: 60px
+    
+    
+}
+.content .right p
+{
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 15px
+}
+.clear
+{
+    clear: both
+}
+hr
+{
+    width: 1200px;
+    margin-top: 50px;
+    opacity: .3
+}
+.content2
+{
+    margin: 90px auto;
+    width: 100%;
+    padding-top: 90px
+        
+}
+.content2 .left, .right
+{
+    float: left
+}
+.content2 .left
+{
+    margin: 10px 50px 0 200px 
+}
+.content2 .left h1
+{
+    text-align: center;
+    margin-bottom: 60px
+    
+}
+.content2 .left h3
+{
+    text-align: left
+    
+}
+.content2 .left p
+{
+    text-align: left;
+    margin-bottom: 40px;
+    letter-spacing: normal;
+    font-size: 20px;
+    color: #B3B3B3
+}
+.content2 .right img
+{
+    opacity: .9
+    
+}
+
+.contact
+{
+     margin: 80px 200px;
+    padding-top: 90px
+}
+.contact h1
+{
+    margin-bottom: 30px
+}
+.contact h2
+{
+    margin-bottom: 30px;
+    letter-spacing: normal;
+    color: #4F579E
+}
+.contact p
+{
+    margin-bottom: 30px;
+    letter-spacing: normal;
+    font-size: 18px
+    
+}
+.contact form input
+{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+    margin: 20px;
+    padding-left: 10px;
+    height: 50px
+}
+.contact form input[type="submit"]
+{
+    color: black;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #ccc;
+    opacity: .6
+}
+.contact form input[type="submit"]:hover
+{
+    opacity: 1;
+    cursor: pointer
+    
+}
+footer
+{
+    height: 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    opacity: .8
+}
+
+
+
+
+

@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+  padding: 20px;
+}
+header nav ul {
+}
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+}
+header nav ul li a {
+  font-weight: bold;
+  color: black;
+}
+header nav ul li a:hover {
+  color: black;
+  text-decoration: none;
+}
+header nav ul.left-nav {
+  float: left;
+  text-transform: uppercase;
+}
+header nav ul.right-nav {
+  float: right;
+}
+.signin a {
+  border-radius: 3px solid #000;
+}
+.joinnow a {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.joinnow a:hover {
+  color: white;
+}
+/*------------End Header -----------*/
+/*-------------------start satrbucks rewards ---------*/
+.starbuck-rewards {
+  clear: both;
+  background-color: #1e3932;
+  color: white;
+  padding: 8px;
+  border-bottom: 3px solid rgb(208, 209, 211);
+}
+.starbuck-rewards h2 {
+  text-transform: uppercase;
+  margin-left: 140px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*--------------End satrbucks rewards ---------*/
+/* --------------------start body--------------*/
+.main-star {
+  background-color: #1e3932;
+  height: 630px;
+}
+.left-star {
+  float: left;
+  color: white;
+  padding: 250px 0 0 30px;
+}
+.left-star h1 {
+  font-weight: bold;
+}
+.left-star p {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px 0;
+}
+.left-star p a {
+  color: white;
+  text-decoration: underline;
+}
+.left-star span a {
+  color: white;
+  background-color: rgb(4, 163, 71);
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: bold;
+}
+.left-star span a:hover {
+  cursor: pointer;
+}
+.star {
+  width: 800px;
+  height: 630px;
+  float: right;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+.star img {
+  width: 100%;
+  height: 100%;
+}
+
+/*--------------End body ---------*/
+/*-------------Start Earn stars---------*/
+section.earn-star {
+  text-align: center;
+  margin: 120px 100px;
+}
+section.earn-star h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+section.earn-star p {
+  font-weight: bold;
+  color: gray;
+  margin: 15px;
+}
+section.earn-star div.earn-stars {
+  display: flex;
+  margin: 40px;
+}
+section.earn-star div.earn-stars h2 {
+  color: green;
+  margin: 30px;
+}
+section.earn-star div.earn-stars h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+section.earn-star div.earn-stars p a {
+  color: green;
+  text-decoration: underline;
+}
+/*-------------End Earn stars---------*/
+/*-------------------------Start Favorites ---------*/
+div.favorites {
+  text-align: center;
+  background-color: rgb(227, 244, 251);
+  padding-top: 30px;
+}
+div.favorites h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+div.favorites ul {
+  margin-top: 50px;
+}
+div.favorites ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 35px;
+}
+div.favorites ul li.fourhundred {
+  border-bottom: 3px solid green;
+}
+/*-------------------------End Favorites ---------*/

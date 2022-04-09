@@ -1,0 +1,441 @@
+body
+{
+    padding: 0;
+    margin: 0
+
+}
+/* start navbar */
+
+.nav
+{
+    height: 120px;
+    box-shadow: 0 5px 10px #DDD;
+    
+
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+    padding: 10px
+}
+@media(max-width:991px)
+{
+    nav ul li
+    {
+        display: block;
+        background-color: white
+    }
+}
+nav ul li a
+{
+    color: darkorange;
+    padding: 10px 20px;
+    transition: all 1.2s ease-in-out;
+    border-radius: 10px
+    
+    
+    
+}
+nav ul li a:hover
+{
+    text-decoration: none;
+    color: #ef4704;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+.dropdown .dropnav a
+{
+    color: darkorange;
+    transition: all 1.2s ease-in-out
+    
+
+    
+    
+}
+.dropdown .dropnav a:hover
+{
+     color: #ef4704;
+     background-color: rgba(0, 0, 0, 0.1)
+     
+    
+}
+.dropdown .dropnav a:active 
+{
+   background-color: #F8F9FA
+}
+/* end navber */
+/* start interface */
+.interface
+{
+    margin-top: 150px;
+    padding-top: 50px;
+}
+
+
+
+.interface h1
+{
+    padding-bottom: 40px;
+    font-size: 60px;
+    color: darkorange;
+}
+
+.interface h2
+{
+    font-size: 35px;
+    color: darkorange;
+    padding-bottom: 20px;
+}
+.interface p
+{
+    font-size: 25px;
+    line-height: 2
+
+}
+.interface .banner 
+{
+    
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    animation: moving 2s linear
+}
+@media(max-width:1199px)
+{
+    .interface .banner
+    {
+        position: static;
+        animation: none;
+        display: block
+    }
+   
+    
+}
+
+@keyframes moving
+{
+    0%
+    {
+        top: 0%;
+        opacity: 0.2;    
+    }
+    100%
+    {
+        top: 25%;
+        opacity: 1;
+    }
+}
+/*endinterface */
+/* start about us */
+.about-us
+{
+    margin-top: 70px;
+    padding: 30px;
+    background-color: #f2f2f2
+}
+.about-us h2
+{
+    margin-bottom: 50PX;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+}
+@media(max-width:1199px)
+{
+    .about-us
+    {
+        margin-top: 200px
+    }
+}
+
+/* end about us */
+/* start slider */
+
+.slider
+{
+    margin-top: 70px;
+    padding: 30px
+
+    
+
+}
+/* end slider */
+
+/* start gallary */
+.gallary 
+{
+    margin-top: 20px;
+    padding: 40px
+}
+.gallary h2
+{
+    margin-bottom: 50PX;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+}
+.gallary .image
+{
+    margin-bottom: 20px;
+    padding: 5px;
+   
+}
+.gallary .image img
+{
+    transition: all 1s  ease-in-out
+}
+.gallary .image img:hover
+{
+        transform: scale(1.1);
+
+
+}
+@media(max-width:992px)
+{
+.gallary .image img:hover
+{
+        transform: none
+
+
+}
+}
+
+/* style the gallary tab */
+.marthegaltab
+{
+   margin-top: 110px;
+    
+}
+/*end gallary */
+/* start subject */
+.subject
+{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #f2f2f2
+    /*background-image: url('../images/%D8%AD%D8%B6%D8%A7%D9%86%D8%A9%20%D8%A7%D8%B7%D9%81%D8%A7%D9%84.jpg');
+    background-size: cover;
+    background-repeat: no-repeat*/
+}
+.subject h2
+{
+    margin-bottom: 50PX;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+
+}
+.subject .card .card-body .card-title
+{
+    color: #EF4704
+}
+/* end subject */
+/* start conclusion */
+.con
+{
+    padding: 20px;
+    margin-top: 20px
+        
+}
+.con h2
+{
+    color: #EF4704 
+}
+
+/*end conclusion */
+
+/* start footer */
+.footer
+{
+    padding: 3px;
+    margin-bottom: 0;
+    background-color: #0c2338
+}
+.footer p
+{
+    font-size: 18px
+}
+/* end footer */
+
+/* 1-start quran */
+.quran 
+{
+    margin-top: 110px;
+    padding: 10px
+}
+.quran h2
+{
+    margin-bottom: 50px;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+    
+}
+.quran p
+{
+    font-size: 40px;
+    margin-bottom: 20px
+    
+}
+.quran .vid
+{
+    margin: 20px 0;
+    height: 500px;
+}
+
+
+
+/* end quran*/
+/* 2-start arabic */
+.arabic
+{
+    margin-top: 110px;
+    padding: 10px
+}
+.arabic h2
+{
+    margin-bottom: 50px;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+    
+}
+.arabic p
+{
+    font-size: 40px;
+    margin-bottom: 20px
+    
+}
+.arabic .vid
+{
+    margin: 20px 0;
+    height: 500px;
+}
+
+/* end arabic */
+ 
+/* 3-start english */
+.eng
+{
+    margin-top: 110px;
+    padding: 10px
+}
+.eng h2
+{
+    margin-bottom: 50px;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+    
+}
+.eng p
+{
+    font-size: 40px;
+    margin-bottom: 20px
+    
+}
+.eng .vid
+{
+    margin: 20px 0;
+    height: 500px;
+}
+/* end english */
+/* 4-start math */
+.math
+{
+    margin-top: 110px;
+    padding: 10px
+}
+.math h2
+{
+    margin-bottom: 50px;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+    
+}
+.math p
+{
+    font-size: 40px;
+    margin-bottom: 20px
+    
+}
+.math .vid
+{
+    margin: 20px 0;
+    height: 500px;
+}
+/* end math */
+/* 5-start hadith */
+.hadith
+{
+    margin-top: 110px;
+    padding: 10px
+}
+.hadith h2
+{
+    margin-bottom: 50px;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+    
+}
+.hadith p
+{
+    font-size: 40px;
+    margin-bottom: 20px
+    
+}
+.hadith .vid
+{
+    margin: 20px 0;
+    height: 500px;
+}
+/* end hadith */
+/* 6-start ethic */
+.ethic
+{
+    margin-top: 110px;
+    padding: 10px
+}
+.ethic h2
+{
+    margin-bottom: 50px;
+    padding: 20PX;
+    color: #EF4704;
+    font-size: 50px
+    
+}
+.ethic p
+{
+    font-size: 40px;
+    margin-bottom: 20px
+    
+}
+.ethic .vid
+{
+    margin: 20px 0;
+    height: 500px;
+    
+}
+/* end ethic */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

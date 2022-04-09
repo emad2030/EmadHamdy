@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="Emad Hamdy" />
+    <meta name="application-name" content="My Site" />
+    <title>My Site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <a
+        class="navbar-brand font-weight-bold"
+        href="index.html"
+        title="Emad Hamdy Website"
+        ><i class="fa fa-2x fa-laptop"></i
+      ></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <!--   <span class="navbar-toggler-icon"></span>-->
+        <span class="navbar-toggler-icon">
+          <i class="fa fa-navicon" style="color: #fff; font-size: 28px"></i>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="Portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Ent navbar -->
+    <!-- Start contact -->
+    <div class="container">
+      <br />
+      <h2 class="text-center text-secondary">Contact Me</h2>
+      <hr />
+      <div class="contact">
+        <div class="row">
+          <div class="col-sm-12">
+            <!-- use formspree website to send email-->
+            <form
+              action="https://formsubmit.co/eh243179@gmail.com"
+              method="post"
+            >
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="Name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Name"
+                    placeholder="Enter Your Name"
+                    name="name"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="inputEmail4">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="Email Address"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Leave Your Message"
+                  ></textarea>
+                </div>
+              </div>
+              <input
+                class="text-success"
+                type="hidden"
+                name="_next"
+                value="Send Successfully"
+              />
+              <button type="submit">Send Message</button>
+              <!-- <a href="mailto:eh243179@gmail.com">Send Message</a> -->
+            </form>
+          </div>
+          <div id="status"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End  contact -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <a href="https://www.facebook.com/emadhamdy12356" target="_blank"
+          ><i class="fa fa-2x fa-facebook"></i
+        ></a>
+        &nbsp;
+        <a
+          href="https://api.whatsapp.com/send/?phone=%2B201024583716&text&app_absent=0"
+          target="_blank"
+          ><i class="fa fa-2x fa-whatsapp"></i
+        ></a>
+        &nbsp;
+        <a
+          href="https://www.linkedin.com/in/emad-hamdy-b4545a156"
+          target="_blank"
+          ><i class="fa fa-2x fa-linkedin"></i
+        ></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          |
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          |
+          <li><a href="about.html">About</a></li>
+          |
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Copyright © 2022 Emad Hamdy • Web Designer & Developer</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

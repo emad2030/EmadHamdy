@@ -1,0 +1,140 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300
+    
+}
+.login-box
+{
+    position: relative;
+    margin: 10% 31%;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.6);
+    
+}
+.left-box
+{
+    position: absolute;
+    top: 0;
+    left: 2;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+.left-box h1
+{
+    font-size: 40px;
+    margin-left: 5px;
+    font-weight: 50px
+}
+.left-box input[type="text"],[type="password"],[type="email"]
+{
+    margin: 10px;
+    margin-left: 5px;
+    border: none;
+    border-bottom: 1px solid #777;
+    background-color: transparent;
+    padding-bottom: 4px;
+    font-size: 20px;
+    outline: none
+}
+.left-box input[type="submit"]
+{
+    margin-top: 20px;
+    background-color: #FA5225;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px 
+}
+.left-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    opacity: 0.8
+    
+    
+}
+.right-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url(d.jpeg);
+    background-size: cover;
+    background-position: center
+}
+.right-box p
+{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 30px;
+    
+}
+.right-box .facebook
+{
+    background-color: #276EEB;
+    width: 100%;
+    border: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+.right-box .twitter
+{
+    background-color: #27C7EB;
+    width: 100%;
+    border: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+.right-box .google
+{
+    background-color: #F95237;
+    width: 100%;
+    border: none;
+    height: 40px;
+    color: white;
+    font-size: 16px
+}
+.right-box button:hover
+{
+    cursor: pointer;
+    opacity: 0.8
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
